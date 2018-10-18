@@ -11,5 +11,6 @@ enamldef MainView(MainWindow): main_view:
 
     title = '{{cookiecutter.app_title}}'
 
-    Label:
-        text << model.message
+    GroupBox:
+        Label:
+            text << model.message
