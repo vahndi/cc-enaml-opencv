@@ -1,4 +1,4 @@
-name: opencv_enaml_env
+name: {{cookiecutter.env_name}}
 channels:
   - menpo
   - defaults
@@ -61,4 +61,4 @@ dependencies:
   - zlib=1.2.11=hf3cbc9b_2
   - opencv3=3.1.0=py35_0
   - tbb=4.3_20141023=0
-prefix: /anaconda3/envs/opencv_enaml_env
+prefix: /anaconda3/envs/{{cookiecutter.env_name}}

@@ -2,7 +2,6 @@ from enaml.core.api import Conditional
 from enaml.widgets.api import *
 from enaml.layout.layout_helpers import *
 
-from local_settings import DEFAULT_VIDEO_PATH
 from main_model import MainModel
 
 
