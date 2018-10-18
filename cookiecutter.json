@@ -1,0 +1,7 @@
+{
+    "repo_name": "my-enaml-app",
+    "project_name": "my_enaml_app",
+    "app_title": "My Enaml App",
+    "platform": ["osx", "lnx", "win"],
+    "env_name": "my_enaml_app__env"
+}
